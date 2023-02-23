@@ -118,7 +118,7 @@ public class SysDept extends BaseEntity
         this.leader = leader;
     }
 
-    @Size(min = 0, max = 11, message = "联系电话长度不能超过11个字符")
+    @Size(min = 0, max = 11, message = "联系电话长度不能超过11个字符1111")
     public String getPhone()
     {
         return phone;
